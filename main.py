@@ -23,6 +23,26 @@ class acc:
         print('Changing account: ', self.accountID)
         self.AccountName = input('Change account name: ')
         self.accountType = input('Change to savings/checking: ')
-        print('')
+        print('All Changes Saved!')
         
+    def deposit(self, amount):
+        self.accountBal += amount
+        
+    def withdraw(self, amount):
+        self.accountBal -= amount
+        
+    def returnAccountID(self):
+        return self.accountID
+    
+    def returnAccountName(self):
+        return self.accountName
+    
+    def returnAccountBalance(self):
+        return self.accountBal
+    
+    def returnAccountType(self):
+        return self.accountType
+    
+    
+    
     
