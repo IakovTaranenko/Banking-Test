@@ -43,6 +43,3 @@ class acc:
     def returnAccountType(self):
         return self.accountType
     
-    
-    
-    
