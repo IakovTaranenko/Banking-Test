@@ -2,7 +2,7 @@ import os
 import pathlib
 import pickle
 
-class acc:
+class Account:
     accountID = 0
     accountName = ''
     accountBal = 0
