@@ -43,3 +43,17 @@ class Account:
     def returnAccountType(self):
         return self.accountType
     
+"""
+def verifyLogin(accountID, givenPass):
+    #check if login request password and id match a stored account
+    
+def verifyLogout(accountID):
+    #make sure that the account is removed from the currently opened accounts
+    
+def openAccount(accountID):
+    #take account from storage and place it in opened account storage 
+    
+def storeAccount(accountID):
+    #take account from opened account storage and place it in storage
+
+"""
