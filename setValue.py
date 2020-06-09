@@ -62,3 +62,5 @@ class setAccount():
             self.state = givenNewCountry
             return 'Change successful.'
     
+if self.DATA != newValue:
+    return True
